@@ -77,9 +77,11 @@
       "email": ""
     },
     {
+      "name": "Neha Ramiah",
       "role": "Secretary",
-      "vacant": true,
-      "bio": "The Secretary keeps the minutes of chapter meetings and oversees the committees that plan individual events. Any active member in good standing may be nominated.",
+      "program": "M.D.",
+      "year": "MS1",
+      "bio": "TODO — add two or three sentences.",
       "photo": "",
       "email": ""
     }
