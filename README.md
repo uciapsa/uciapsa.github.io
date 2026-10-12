@@ -56,7 +56,7 @@ or use the search box at the top of the repository page).
 
 Work through these before announcing the site:
 
-- [ ] **Chapter email address.** Replace `TODO-EMAIL@uci.edu` everywhere. See
+- [x] **Chapter email address.** Set to `jordan.jessen@physicianscientists.org`. See
       [How to change the chapter email address](#how-to-change-the-chapter-email-address).
 - [ ] **Real events.** `data/events.json` ships with two clearly-marked example
       events. Replace them with real ones and delete the examples.
@@ -219,15 +219,15 @@ The link currently points at <https://forms.gle/CcRBKxNCcAmbrR5C8>.
 The email address appears in the footer of every page, which means it is in all
 eight `.html` files, plus twice on `contact.html`.
 
-**On GitHub:** use the repository search box to search for `TODO-EMAIL@uci.edu`.
+**On GitHub:** use the repository search box to search for the current address (`jordan.jessen@physicianscientists.org`).
 It will list every file containing it. Open each one, click the pencil, and
-replace it. There are nine occurrences in total.
+replace it. There are ten occurrences in total.
 
 **On your own computer,** if you are comfortable with Terminal, you can do all of
 them in one command from inside the website folder:
 
 ```bash
-grep -rl 'TODO-EMAIL@uci.edu' . | xargs sed -i '' 's/TODO-EMAIL@uci.edu/your-real-address@uci.edu/g'
+grep -rl 'jordan.jessen@physicianscientists.org' . | xargs sed -i '' 's/jordan.jessen@physicianscientists.org/new-address@example.org/g'
 ```
 
 (On Windows or Linux, drop the `''` after `-i`.)
