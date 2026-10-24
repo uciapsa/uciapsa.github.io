@@ -61,9 +61,11 @@
       "email": ""
     },
     {
+      "name": "Diego Burgos",
       "role": "Treasurer",
-      "vacant": true,
-      "bio": "The Treasurer records and maintains the chapter's records of expenditures, including submitting the forms needed to request funds, and attends Associated Medical Student Government meetings related to student group funding. Any active member in good standing may be nominated.",
+      "program": "M.D.",
+      "year": "MS1",
+      "bio": "The Treasurer records and maintains the chapter's records of expenditures, including submitting the forms needed to request funds, and attends Associated Medical Student Government meetings related to student group funding.",
       "photo": "",
       "email": ""
     },
