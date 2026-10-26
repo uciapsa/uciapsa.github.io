@@ -56,7 +56,7 @@ or use the search box at the top of the repository page).
 
 Work through these before announcing the site:
 
-- [x] **Chapter email address.** Set to `jordan.jessen@physicianscientists.org`. See
+- [x] **Chapter email address.** Set to `jjessen@hs.uci.edu`. See
       [How to change the chapter email address](#how-to-change-the-chapter-email-address).
 - [ ] **Real events.** `data/events.json` ships with two clearly-marked example
       events. Replace them with real ones and delete the examples.
@@ -217,9 +217,9 @@ The link currently points at <https://forms.gle/CcRBKxNCcAmbrR5C8>.
 ## How to change the chapter email address
 
 The email address appears in the footer of every page, which means it is in all
-eight `.html` files, plus twice on `contact.html`.
+nine `.html` files, plus a second time on `contact.html`.
 
-**On GitHub:** use the repository search box to search for the current address (`jordan.jessen@physicianscientists.org`).
+**On GitHub:** use the repository search box to search for the current address (`jjessen@hs.uci.edu`).
 It will list every file containing it. Open each one, click the pencil, and
 replace it. There are ten occurrences in total.
 
@@ -227,7 +227,7 @@ replace it. There are ten occurrences in total.
 them in one command from inside the website folder:
 
 ```bash
-grep -rl 'jordan.jessen@physicianscientists.org' . | xargs sed -i '' 's/jordan.jessen@physicianscientists.org/new-address@example.org/g'
+grep -rl 'jjessen@hs.uci.edu' . | xargs sed -i '' 's/jjessen@hs.uci.edu/new-address@example.org/g'
 ```
 
 (On Windows or Linux, drop the `''` after `-i`.)
